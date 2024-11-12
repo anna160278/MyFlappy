@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void Jump() {
+    public void Jump() {
         rb.AddForce(new Vector2(0, force), ForceMode2D.Impulse);
     }
 
